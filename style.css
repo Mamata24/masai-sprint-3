@@ -1,0 +1,85 @@
+body{
+        background-image: url("resources/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+}
+.homeclass, .countriesclass, .statesclass, .contactclass,.showresponse
+{
+    margin:20px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: #00bcd4;
+    width: 100px;
+}
+
+.heading {
+  font-size: 1.8rem;
+  padding: 5px 0;
+}
+.response{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px maroon, 0 0 1em maroon, 0 0 0.2em maroon;
+}
+.main_heading
+{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px maroon, 0 0 1em maroon, 0 0 0.2em maroon;    
+    text-decoration: maroon wavy underline;
+}
+#total_cases, #active_cases, #recovered_cases, #death_cases{
+color: #263238;
+float: left;
+margin:50px;
+margin-left: 100px;
+}
+#total_cases:hover {
+    color: #E91E63;
+    transition: color 0.25s;
+    border: 2px dotted;
+    width: 160px;
+}
+
+#active_cases:hover{
+  color: #880E4F;
+  transition: color 0.25s;
+  border: 2px dotted;
+  width: 180px;
+}
+
+#recovered_cases:hover {
+  color: #1B5E20;
+  transition: color 0.25s;
+  border: 2px dotted;
+  width: 190px;
+}
+
+#death_cases:hover {
+  color: #d50000;
+  transition: color 0.25s;
+  border: 2px dotted;
+  width: 180px;
+}
+#inputDataContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+input
+{
+    width: 250px;
+
+}
+#displayContainer
+{
+    float: right;
+    margin-left: 200px;
+    font-weight: bold;
+}
+p{
+    white-space: pre-line;
+    line-height: 30px;
+}
